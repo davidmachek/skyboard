@@ -89,6 +89,10 @@ python examples\example1.py
 ### As an installed package
 
 ```bash
+pip install skyboard
+```
+or
+```bash
 pip install .
 ```
 
