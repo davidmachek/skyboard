@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skyboard"
+version = "0.1.0"
+description = "Python library for aviation, aircraft and airport information"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "David Machek" }
+]
+
+dependencies = [
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
