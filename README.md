@@ -68,7 +68,7 @@ Distances are computed with the haversine formula on a sphere of radius 6371 km,
 ### From source (recommended)
 
 ```bash
-git clone https://github.com/<user>/SkyBoard.git
+git clone https://github.com/davidmachek/SkyBoard.git
 cd SkyBoard
 pip install requests
 ```
